@@ -1,0 +1,47 @@
+
+
+h1 {
+	font-weight: bold;
+	font-size: 69px;
+  margin-bottom: 15px;
+  color: yellowgreen;
+}
+
+body {
+	background: linear-gradient(to right, #D6DF23, #00ADEF, #EF5285);
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+button{
+  font-size: 14px;
+	background: palevioletred;
+	border: none;
+	padding: 10px 15px;
+	margin: 6px;
+  border-radius: 10px;
+  color: whitesmoke;
+}
+
+button:hover, button:active {
+	background: purple;
+	color: greenyellow;
+}
+
+.gif{
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  
+}
+
+.gif:hover {
+	-webkit-box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow:    10px 10px 0px 0px rgba(0, 0, 0, 0.4);
+	box-shadow:         10px 10px 0px 0px rgba(0, 0, 0, 0.4);
+}
+
+.jumbotron{
+  background-image: url("../images/rick\ and\ morty.png");
+  background-size: cover;
+  background-position: center center;
+}

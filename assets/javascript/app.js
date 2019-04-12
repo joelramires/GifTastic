@@ -26,7 +26,6 @@ $(document).ready(function() {
       
       // Looping through each result item
       for (var i = 0; i < results.length; i++) {
-        
         // Creating and storing a div tag
         var tvDiv = $("<div>");
         
