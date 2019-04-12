@@ -1,10 +1,17 @@
 
 
 h1 {
-	font-weight: bold;
+	/* font-weight: bold;
 	font-size: 69px;
   margin-bottom: 15px;
   color: yellowgreen;
+} */
+color: white;
+	text-align: center;
+	letter-spacing: 10px;
+  font-family: 'Bangers', cursive;
+	font-weight: 300;
+
 }
 
 body {
@@ -20,6 +27,8 @@ button{
 	margin: 6px;
   border-radius: 10px;
   color: whitesmoke;
+  font-family: 'Bangers', cursive;
+  letter-spacing: 3px;
 }
 
 button:hover, button:active {
@@ -44,4 +53,5 @@ button:hover, button:active {
   background-image: url("../images/rick\ and\ morty.png");
   background-size: cover;
   background-position: center center;
+  height: 400px;
 }

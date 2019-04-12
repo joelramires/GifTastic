@@ -51,6 +51,8 @@ $(document).ready(function() {
         
       }
       
+      
+      
     });
     $(document).on("click", ".gif",function() {
       
